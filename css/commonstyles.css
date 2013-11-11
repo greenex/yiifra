@@ -1,0 +1,1155 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{background:#c8e5ff url(../images/maha_body_background_v001.png) center top repeat-x;font-family:Tahoma, Helvetica, Arial, sans-serif}
+ul{list-style:none}
+.himg{display:none;}
+#wrapper {
+	width:990px;
+	margin:0px auto;
+	background:transparent url(../images/maha_background_shade_v001.png) left top repeat-y;
+}
+#header {
+	background: url(../images/maha_top_shade_v001.png) left top no-repeat;
+	padding-top: 20px;
+	padding-left: 17px;
+}
+#navigation {
+	background:url(../images/maha_nav_background_v001.png) 17px top no-repeat;
+	padding-left: 17px;
+}
+
+
+#navigation1 {
+	background:url(../images/maha_nav_background_forgotpwd.jpg) 17px top no-repeat;
+	padding-left: 17px;
+}
+#navigation #main_nav {
+	;
+	height: 48px;
+}
+#navigation #main_nav li{float:left;}
+#navigation #main_nav a{
+	display:block;
+	font-size:small;
+	padding-bottom:21px;
+	padding-top:11px;
+	text-align:center;
+	text-decoration:none;
+	width:120px;
+	text-shadow:0 0 1px #666666;
+}
+#home #navigation #main_nav a.home,
+#pages_home #navigation #main_nav a.home,
+#elegible #navigation #main_nav a.elegible,
+#about #navigation #main_nav a.about,
+#faq #navigation #main_nav a.faq,
+#testimonials #navigation #main_nav a.testimonials,
+#spanish #navigation #main_nav a.spanish,
+#contact #navigation #main_nav a.contact,
+#login #navigation #main_nav a.login{
+background:url(../images/maha_nav_hover_background_v001.png) left bottom no-repeat;text-shadow:0 0 2px #999999;
+}
+#navigation #main_nav a:link{
+	color:#000000;
+}
+#navigation #main_nav a:visited{color:#000000;}
+#navigation #main_nav a:hover{background:url(../images/maha_nav_hover_background_v001.png) left bottom no-repeat;text-shadow:0 0 2px #999999;}
+#navigation #main_nav a:active{color:#000000;}
+#home #content,
+#contact #content,
+#elegible #content,
+#faq #content,
+#proximamente #content{
+	clear: both;
+	width: 920px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height:0 auto;
+	float:left;
+}
+#tos #content,
+#privacy #content{
+	clear: both;
+	width: 880px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding:40px;
+}
+#testimonials #content{
+	/*background-image:url(../images/maha_testimonials_background_v001.png);
+	background-position:20px 20px;
+	background-repeat:no-repeat;*/
+	clear: both;
+	width: 920px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	height:0 auto;
+	float:left;
+}
+#congrats #content {
+	background-image:url(../images/maha_congrats_background_v001.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width: 940px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#pages_congrats #content {
+	background-image:url();
+	background-position:left  1164px;
+	background-repeat:no-repeat;
+	width: 940px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#sorry #content {
+	background-image:url(../images/maha_sorry_background_v001.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width: 940px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#login #content {
+	clear: both;
+	width: 940px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#pages_home #content {
+	clear: both;
+	width: 960px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+}
+#pages_contact #content {
+	clear: both;
+	width: 960px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+	padding-bottom:20px;
+}
+#pages_thankyou #content {
+	clear: both;
+	width: 960px;
+	margin-left: 17px;
+	background-color: #FFFFFF;
+}
+#about #content {
+	background-image:url(../images/maha_about_background_v001.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width: 940px;
+	margin-left: 17px;
+	background-color: #cdcdcd;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#contact #content{
+	background-image:url(../images/maha_contact_background_image_v001.jpg);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	height: 1008px;
+}
+#proximamente #content{
+	background-image:url(../images/maha_prox_background_v001.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:328px;
+}
+#home #content #home_four_steps {
+	width:876px;
+	float:left;
+	padding-left:30px;
+	/*margin: 0px auto;*/
+	padding-bottom: 8px;
+	height: 361px;
+}
+#home_four_steps #big_image {
+	width:376px;
+	height:353px;
+	float: left;
+	background-image: url(../images/maha_home_step_sprite.png);
+}
+#home_four_steps.step1 #big_image{background-position:left top;}
+#home_four_steps.step2 #big_image{background-position:left -353px;}
+#home_four_steps.step3 #big_image{background-position:left -705px;}
+#home_four_steps.step4 #big_image{background-position:left -1060px;}
+#home_four_steps #easy_steps {
+	width:467px;
+	height:331px;
+	margin-left: 408px;
+	position: relative;
+}
+#home_four_steps #easy_steps #steps_title {
+	width:315px;
+	margin: 0px auto 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color:#1f2f70;
+	text-align: center;
+	text-shadow:0 0 1px #000000;
+}
+#home_four_steps #easy_steps #steps_control {
+	width:334px;
+	height:256px;
+	overflow:hidden;
+	line-height: 26px;
+	padding-left: 108px;
+	text-align:justify;
+	padding-right: 25px;
+	padding-top: 0px;
+	background-image: url(../images/maha_home_step_sprite.png);
+}
+#home_four_steps.step1 #easy_steps #steps_control{background-position:left 1089px;}
+#home_four_steps.step2 #easy_steps #steps_control{background-position:left 832px;}
+#home_four_steps.step3 #easy_steps #steps_control{background-position:left 576px;}
+#home_four_steps.step4 #easy_steps #steps_control{background-position:left 320px;}
+#home_four_steps #easy_steps #steps_control p{color:#FFFFFF; font-weight:normal;}
+#home_four_steps.step1 p#p_step1{display:block;}
+#home_four_steps.step1 p#p_step2,
+#home_four_steps.step1 p#p_step3,
+#home_four_steps.step1 p#p_step4{display:none;}
+#home_four_steps.step2 p#p_step2{display:block;}
+#home_four_steps.step2 p#p_step1,
+#home_four_steps.step2 p#p_step3,
+#home_four_steps.step2 p#p_step4{display:none;}
+#home_four_steps.step3 p#p_step3{display:block;}
+#home_four_steps.step3 p#p_step1,
+#home_four_steps.step3 p#p_step2,
+#home_four_steps.step3 p#p_step4{display:none;}
+#home_four_steps.step4 p#p_step4{display:block;}
+#home_four_steps.step4 p#p_step1,
+#home_four_steps.step4 p#p_step2,
+#home_four_steps.step4 p#p_step3{display:none;}
+#home_four_steps #easy_steps #steps_nav {
+	padding-top: 8px;
+	display: block;
+	height: 32px;
+	width: 232px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	bottom: 0px;
+	margin-left: 117px;
+	
+}
+#home_four_steps #easy_steps #steps_nav li{
+	float:left;
+	margin-right:8px;
+	text-align: center;
+}
+#home_four_steps #easy_steps #steps_nav a{
+	background-image:url(../images/maha_home_step_sprite.png);
+	display:inline-block;
+	color:#000000;
+	text-decoration:none;
+	vertical-align:middle;
+	height:32px;
+	width:32px;
+	font-size:x-large;
+	text-shadow:0 0px 2px #FFFFFF;
+	line-height: 32px;
+}
+#home_four_steps.step1 #easy_steps #steps_nav a#a_step1,
+#home_four_steps.step2 #easy_steps #steps_nav a#a_step2,
+#home_four_steps.step3 #easy_steps #steps_nav a#a_step3,
+#home_four_steps.step4 #easy_steps #steps_nav a#a_step4{
+	background-position:-32px 32px;
+	color:#FFFFFF;
+	text-shadow:0 0px 2px #000000;
+}
+#home_four_steps #easy_steps #steps_nav a:link{
+	background-position:-32px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a:visited{
+	background-position:-32px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a:hover{
+	color:#FFFFFF;
+	background-position:-32px 32px;
+	text-shadow:0 0 2px #000000;
+}
+#home_four_steps #easy_steps #steps_nav a:active{
+	color:#FFFFFF;
+	text-shadow:0 0 2px #000000;
+}
+#home_four_steps #easy_steps #steps_nav a.previous_step:link{
+	background-position:0px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a.previous_step:visited{
+	background-position:0px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a.previous_step:hover{
+	background-position:0px 32px;
+}
+#home_four_steps #easy_steps #steps_nav a.previous_step:active{
+	background-position:0px 32px;
+}
+#home_four_steps #easy_steps #steps_nav a.next_step:link{
+	background-position:-64px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a.next_step:visited{
+	background-position:-64px 64px;
+}
+#home_four_steps #easy_steps #steps_nav a.next_step:hover{
+	background-position:-64px 32px;
+}
+#home_four_steps #easy_steps #steps_nav a.next_step:active{
+	background-position:-64px 32px;
+}
+
+#footer {
+	width:960px;
+	margin-left:17px;
+	background:url(../images/maha_footer_background_v001.jpg) left top no-repeat;
+	height:170px;
+	padding-top: 30px;
+	clear:both;
+}
+#footer #footer_nav{
+	list-style:none;
+	height: 18px;
+	margin-left: 94px;
+}
+#footer #footer_nav li{float:left; border-right:1px solid #466ca6;}
+#footer #footer_nav a{
+	display:block;
+	font-size:small;
+	padding-bottom:1px;
+	padding-top:1px;
+	text-align:center;
+	text-decoration:none;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-shadow:0 0 2px #000000;
+}
+#footer #footer_nav a:link{
+	color:#466ca6;
+}
+#footer #footer_nav a:visited{color:#466ca6;}
+#footer #footer_nav a:hover{ color:#FFFFFF; text-shadow:0 0 2px #FFFFFF;}
+#footer #footer_nav a:active{color:#466ca6;}
+#footer #cr_pow_notice {
+	color:#466ca6;
+	font-size:x-small;
+	padding-top: 75px;
+	padding-bottom: 20px;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-shadow:0 0 2px #000000;
+}
+#footer #cr_pow_notice a{color:#466ca6; text-decoration:none;}
+#contact #content #left_col {
+	float:left;
+	width: 50%;
+}
+#contact #content #left_col h1{
+	font-size:52pt;
+	text-align: center;
+}
+#contact #content #left_col p,
+#contact #content #left_col li{
+	font-size:14px;
+	text-align:justify;
+	margin:10px 0px;
+}
+#contact #content #left_col ul {
+	width:335px;
+	display:block;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+#contact #content #left_col label{
+	display:inline-block;
+	width:79px;
+	vertical-align:middle;
+}
+#contact #content #left_col input{
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	width:250px;
+	height:20px;
+	padding:5px 0px;
+}
+#contact #content #left_col textarea{
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	width:250px;
+}
+#contact #content #left_col #send_button{
+	background:transparent url(../images/maha_contact_submit_normal_v001.png);
+	width:150px;
+	height:30px;
+	color:#FFFFFF;
+	border:0px;
+
+}
+#contact #content #left_col #send_button.hover{
+	background-image:url(../images/maha_contact_submit_over_v001.png);
+	cursor:pointer;
+
+}
+#contact #content #right_col {
+	margin-left:50%;
+	width:50%;
+	padding-top: 170px;
+	*padding-top:190px;
+}
+#contact #content #right_col p{
+	text-align:left;
+	margin: 20px 0px 20px 64px;
+}
+#contact #content #right_col ul{padding-left:93px;}
+#contact #content #right_col li{margin:14px 0px;}
+#contact #content #right_col li a{ text-decoration:none;color:#000000;}
+#contact #content #map_area {
+	clear:both;
+	background-image: url(../images/maha_contact_map_background_v001.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	width: 628px;
+	height: 361px;
+	color: #FFFFFF;
+	padding-left: 41px;
+	padding-bottom: 21px;
+	position: absolute;
+	z-index: 1000;
+}
+#contact #content #map_area img.map{display:block}
+#contact #content #map_area p{
+	margin-bottom: 15px;
+}
+#login #content #login_form_area {
+	float:left;
+	background-image:url(../images/maha_login_background_v001.jpg);
+	background-repeat:no-repeat;
+	background-position:left 39px;
+	width: 540px;
+	padding-top: 39px;
+	height: 260px;
+}
+
+#login #content #login_form_area2 {
+	float:left;
+	background-image:url(../images/maha_login_background_forgotpwd.jpg);
+	background-repeat:no-repeat;
+	background-position:left 39px;
+	width: 904px;
+	padding-top: 39px;
+	height: 800px;
+}
+
+
+
+
+
+
+#login #content #login_form_area2 h3{margin:50px 0px 15px 20px; color:#FFFFFF;}
+#login #content #login_form_area2 li{margin:15px 0px;}
+#login #content #login_form_area2 label{
+	display:inline-block;
+	width:94px;
+	vertical-align: middle;
+}
+#login #content #login_form_area2 input{border:1px solid #999999;height:20px; padding:5px 0px; width:250px; vertical-align:middle;}
+#login #content #login_form_area2 a{color:#000000; text-decoration:none; font-size:small;}
+#login #content #login_form_area2 #login_button{
+	color:#FFFFFF;
+	width:209px;
+	background-image:url(../images/forgotbutton.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-color:transparent;
+	border:0px;
+	margin-left:100px;
+	height:53px;
+}
+#login #content #login_form_area2 #login_button.hover{cursor:pointer;background-image:url(../images/forgotbutton-hover.png);}
+
+.forgot-pass-content{ width:470px; float:left; padding:0 0 0 0;}
+.forgot-pass-content p{ text-align:justify; font-family:Tahoma, Geneva, sans-serif; font-size:14px; padding:0 0 0 40px; line-height:30px;}
+
+
+
+
+#login #content #login_form_area h3{margin:15px 0px 15px 20px; color:#FFFFFF;}
+#login #content #login_form_area li{margin:15px 0px;}
+#login #content #login_form_area label{
+	display:inline-block;
+	width:94px;
+	vertical-align: middle;
+}
+#login #content #login_form_area input{border:1px solid #999999;height:20px; padding:5px 0px; width:250px; vertical-align:middle;}
+#login #content #login_form_area a{color:#000000; text-decoration:none; font-size:small;}
+#login #content #login_form_area #login_button{
+	color:#FFFFFF;
+	width:112px;
+	background-image:url(../images/maha_login_normal_v001.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-color:transparent;
+	border:0px;
+	margin-left:137px;
+	height:49px;
+}
+#login #content #login_form_area #login_button.hover{cursor:pointer;background-image:url(../images/maha_login_over_v001.png);}
+
+#elegible #content #title_box {
+	background-image:url(../images/maha_elegible_title_background_v001.png);
+	background-repeat:repeat-x;
+	height: 76px;
+}
+#elegible #content #title_box #title_text_box {
+	background-image:url(../images/maha_elegible_title_sprite_v001.png);
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	padding-bottom: 13px;
+	text-shadow:-1px 1px 1px #FFFFFF;
+	font-size:14px;
+	display: inline-block;
+	float: left;
+	width: 884px;
+}
+#elegible #content #title_box #title_text_box p{padding:3px 0px 4px 0px;}
+#elegible #content #title_box #title_right_cap {
+	background-image:url(../images/maha_elegible_title_sprite_v001.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	width:6px;
+	height:76px;
+	float:left;
+}
+#elegible #content #left_col {
+	float:left;
+	width:443px;
+	padding-left: 13px;
+}
+#elegible #content #right_col {
+	margin-left:456px;
+	width:443px;
+	padding-left: 13px;
+	padding-top: 1px;
+}
+#elegible #content li{
+/*background-image:url(../images/maha_elegible_form_sprite_v001.png);
+ margin: 7px 0px; 
+ font-size:14px;*/
+   background-image: url("../images/maha_program_form_sprite_v001.png");
+    background-repeat: no-repeat;
+    font-size: 14px;
+    margin: 7px 0;
+ }
+#elegible #content .form_box_dark {
+	/*background-position:left top;
+	width:443px;
+	height:73px;*/
+	 background-position: 0 top;
+    height: 103px;
+    width: 410px;
+}
+
+#elegible #content .form_box_light {
+	/*background-position:left -73px;
+	width:443px;
+	height:73px;*/
+	    background-position: 0 bottom;
+    height: 103px;
+    width: 410px;
+	
+}
+#elegible #content .form_box_dark_big {
+	background-position:right bottom;
+	width:443px;
+	height:153px;
+}
+#elegible #content .question_holder {
+	/*width:285px;
+	float: left;
+	padding: 10px;*/
+    float: left;
+    padding: 10px;
+    width: 243px;
+}
+#elegible #content .answer_holder {
+	/*padding:26px 10px 10px 10px;
+	margin-left: 305px;
+	text-align: center;*/
+	float: left;
+	margin:41px 0 0 15px;
+    text-align: center;
+}
+
+#elegible #content .answer_holder2 {
+	float: left;
+    margin-left: 16px;
+    margin-top: 20px;
+    padding: 5px 0 10px;
+    width: 115px;
+    /*text-align: center;*/
+}
+
+#elegible #content .answer_holder_top{
+	float: left;
+    margin-left: 16px;
+    margin-top: 2px;
+    padding: 5px 0 10px;
+    width: 115px;
+    /*text-align: center;*/
+}
+
+#elegible #content .answer_holder2 input[type="radio"] {
+    margin: 0 5px;
+}
+#elegible #content .answer_holder input[type=radio]{margin:0px 5px;}
+#elegible #content .answer_holder input.smallTextField{
+	border:1px solid #a9b4bb;
+	width:95px;
+	padding:2px;
+}
+#elegible #content .question_holder input.largeTextField{border:1px solid #a9b4bb; width:278px;	padding:2px; margin-bottom: 5px;}
+#elegible #content .form_box_dark_big .answer_holder{
+	padding:35px 10px 10px 15px;
+	margin-left: 305px;
+}
+#elegible #content #right_col a{text-decoration:none;color:#FFFFFF;}
+#elegible #content #right_col #infoWindowTrigger {
+	color:#FFFFFF;
+	font-size:11px;
+	height:15px;
+	width:70px;
+	background:transparent url(../images/maha_elegible_clickhere_normal_v001.png);
+	display:inline-block;
+	text-align:center;
+}
+#elegible #content #right_col #infoWindowTrigger.hover {background:transparent url(../images/maha_elegible_clickhere_over_v001.png); cursor:pointer;}
+#elegible #content #right_col #infoWindow {
+	clear:both;
+	color:#FFFFFF;
+	height: 112px;
+	width: 512px;
+	position: absolute;
+	z-index: 1000;
+}
+#elegible #content #send_form {
+	background-image: url(../images/maha_elegible_submit_normal_v001.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height:60px;
+	width:205px;
+}
+#elegible #content #send_form.hover{background-image: url(../images/maha_elegible_submit_over_v001.png); cursor:pointer;}
+#about #content h3 {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#about #content p {
+	text-align: justify;
+}
+#about #content ul{list-style:none; margin-left:25px;}
+#about #content a{color:#000000; text-decoration:none;}
+#congrats #content #left_col {
+	float:left;
+	width:45%;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 340px;
+}
+#pages_congrats #content #left_col {
+	float:left;
+	width:44%;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 400px;
+	padding-bottom: 100px;
+}
+#congrats #content #left_col h2{
+	padding:20px 0px 11px;
+	color:#000000;
+}
+#pages_congrats #content #left_col h2{
+	padding:18px 0px 17px;
+	color:#FFF;
+}
+#congrats #content #right_col {
+	margin-left:45%;
+	width:50%;
+	text-align: center;
+}
+#pages_congrats #content #right_col {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:1px 1px 3px rgba(0,0,0,0.5);
+	text-align: left;
+	background-image: url(../images/maha_congrats_approved_background_v001.jpg);
+	background-repeat: no-repeat;
+	background-position: 65px center;
+	width: 451px;
+	border: 1px solid #DDD;
+	height: 268px;
+	margin: 0px aotu;
+	padding-left: 450px;
+	padding-right: 18px;
+}
+#congrats #content #right_col h1{padding:25px 0px; color:#FFFFFF; font-size:42px}
+#congrats #content #right_col p{padding:20px 0px 10px 0px;}
+#congrats #content #right_col input{border:0px none; padding:2px}
+#pages_congrats #content #right_col h1{padding:25px 0px; color:#FFFFFF; font-size:42px}
+#pages_congrats #content #right_col p{padding:20px 0px 10px 0px;}
+#pages_congrats #content #right_col input{border:0px none; padding:2px}
+
+#sorry #content h2{
+	color:#FFFFFF;
+	font-size:27px;
+	margin-left:111px;
+	padding-bottom:36px;
+	padding-left:0;
+	padding-right:0;
+	padding-top:25px;	
+}
+#sorry #content #right_col {
+	margin-left:46%;
+	width:52%;
+	text-align: center;
+	padding-top: 200px;
+}
+#sorry #content #right_col h2{
+	color:#000000;
+	padding:10px 0px;
+	font-size:medium;
+	margin-left: 0px;
+}
+#sorry #content #right_col p,
+#sorry #content #right_col li{color:#000000;padding:10px 0px; font-size:14px;}
+#sorry #content #right_col li h2{color:#000000;padding:0px;}
+#sorry #content #right_col a{
+	text-decoration:none;
+	color:#FFFFFF;
+	display: inline-block;
+}
+
+#faq #content #left_col {
+	float:left;
+	width:228px;
+}
+#faq #content #right_col {
+	margin-left:228px;
+	padding-left: 15px;
+}
+#faq #content #right_col h1{
+	font-size:40px;
+	padding:0px 0px 22px 0px;
+	text-align:center;
+}
+#faq #content #right_col p{font-size:14px;text-align:justify;}
+#testimonials #content #content_title {
+	background-image:url(../images/maha_testimonials_background_v001.png);
+	background-position:87px top;
+	background-repeat:no-repeat;
+	padding-left:60px;
+	padding-bottom:30px;
+	padding-top: 20px;
+}
+#testimonials #content #content_title h1,
+#testimonials #content #content_title h2{color:#000000;text-align:center;}
+#testimonials #content #content_title h1{font-size:70px;}
+#testimonials #content #content_title h2 {
+	font-weight:normal;
+	font-size:34px;
+}
+#testimonials #content #testimonials_content {
+	padding:7px 121px 0px 120px;
+	color: #FFFFFF;
+}
+#testimonials #content #testimonials_content .odd,
+#testimonials #content #testimonials_content .even {
+	padding-bottom:20px;
+}
+#testimonials #content #testimonials_content .odd .number,
+#testimonials #content #testimonials_content .even .number {
+	background-image:url(../images/maha_tNumber_background_v001.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	float:left;
+	font-size:32px;
+	height:57px;
+	margin-top:37px;
+	padding-left:7px;
+	padding-right:2px;
+	padding-top:10px;
+	text-align:center;
+	width:63px;
+}
+#testimonials #content #testimonials_content .odd .detail_wrapper {
+	background-image:url(../images/maha_tGrey_top_v001.png);
+	background-color:#444444;
+	background-position:right top;
+	background-repeat:no-repeat;
+	padding-top:5px;
+}
+#testimonials #content #testimonials_content .even .detail_wrapper {
+	background-image:url(../images/maha_tGrey_top_v001.png);
+	background-color:#444444;
+	background-position:right top;
+	background-repeat:no-repeat;
+	padding-top:5px;
+}
+#testimonials #content #testimonials_content .odd .detail_container {
+	background-image:url(../images/maha_tGrey_bottom_v001.png);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	padding-top: 16px;
+	padding-right: 23px;
+	padding-bottom: 15px;
+}
+#testimonials #content #testimonials_content .even .detail_container {
+	background-image:url(../images/maha_tGrey_bottom_v001.png);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	padding-top: 16px;
+	padding-right: 23px;
+	padding-bottom: 15px;
+}
+#testimonials #content #testimonials_content .odd .detail_wrapper .person_details,
+#testimonials #content #testimonials_content .even .detail_wrapper .person_details {
+	text-align:right;
+	width:225px;
+	padding-right:12px;
+	/*float: left;*/
+}
+#testimonials #content #testimonials_content .detail_wrapper .person_details a{
+	background-image:url(../images/maha_program_videoButton_sprite_v001.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:90px;
+	height:20px;
+	display:inline-block;
+}
+#testimonials #content #testimonials_content .detail_wrapper .person_details a:link{background-position:left top;}
+#testimonials #content #testimonials_content .detail_wrapper .person_details a:visited{}
+#testimonials #content #testimonials_content .detail_wrapper .person_details a:hover{ background-position:left bottom;}
+#testimonials #content #testimonials_content .detail_wrapper .person_details a:active{}
+
+#testimonials #content #testimonials_content .odd .detail_wrapper .testimony_wrapper,
+#testimonials #content #testimonials_content .even .detail_wrapper .testimony_wrapper {
+	border-left:2px solid #FFFFFF;
+	margin-left:237px;
+	background-image:url(../images/maha_tQuote_left_v001.png);
+	background-repeat:no-repeat;
+	background-position: 12px 21px;
+}
+#testimonials #content #testimonials_content .odd .detail_wrapper .testimony,
+#testimonials #content #testimonials_content .even .detail_wrapper .testimony  {
+	padding:20px 25px 20px 40px;
+	background-image:url(../images/maha_tQuote_right_v001.png);
+	background-position:right 90%;
+	background-repeat:no-repeat;
+	text-align: justify;
+	font-size:14px;
+}
+#testimonials #content #steps_nav {
+	height: 32px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	bottom: 0px;
+	margin: 0px auto;
+	padding-bottom:20px;
+}
+#testimonials #content #steps_nav p{
+	display:inline-block;
+	text-align: center;
+    margin-right: -4px;
+}
+#testimonials #content #steps_nav a{
+	background-image:url(../images/maha_tNav_sprite_v001.png);
+	display:inline-block;
+	color:#FFFFFF;
+	text-decoration:none;
+	vertical-align:middle;
+	height:32px;
+	width:32px;
+	font-size:x-large;
+	text-shadow:0 0px 2px #FFFFFF;
+	line-height: 32px;
+}
+#testimonials #content #steps_nav a:link{
+	background-position:-32px -32px;
+}
+#testimonials #content #steps_nav a:visited{
+	background-position:-32px -32px;
+}
+#testimonials #content #steps_nav a:hover{
+	color:#FFFFFF;
+	background-position:-32px 0px;
+	text-shadow:0 0 2px #FFFFFF;
+}
+#testimonials #content #steps_nav a:active{
+	color:#FFFFFF;
+	text-shadow:0 0 2px #FFFFFF;
+}
+#testimonials #content #steps_nav a.active{
+	background-position:-32px 0px;
+	color:#FFFFFF;
+	text-shadow:0 0px 2px #FFFFFF;
+}
+#testimonials #content #steps_nav a.previous_step:link{
+	background-position:0px -32px;
+}
+#testimonials #content #steps_nav a.previous_step:visited{
+	background-position:0px -32px;
+}
+#testimonials #content #steps_nav a.previous_step:hover{
+	background-position:0px 0px;
+}
+#testimonials #content #steps_nav a.previous_step:active{
+	background-position:0px 32px;
+}
+#testimonials #content #steps_nav a.next_step:link{
+	background-position:-64px -32px;
+}
+#testimonials #content #steps_nav a.next_step:visited{
+	background-position:-64px -32px;
+}
+#testimonials #content #steps_nav a.next_step:hover{
+	background-position:-64px 0px;
+}
+#testimonials #content #steps_nav a.next_step:active{
+	background-position:-64px -32px;
+}
+#sorry #content #right_col #tryAgainWindow {
+	height:215px;
+	width:514px;
+	position:absolute;
+	z-index:1000;
+}
+#sorry #content #right_col #closeWindowTrigger {
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1000;
+}
+#sorry #content #right_col #tryAgainWindow #tryAgainWindowContent {
+	background-color:#2f3739;
+	height:180px;
+	width:480px;
+	position:absolute;
+	bottom:0px;
+	left: 0px;
+	padding:20px 10px 0px 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	border:3px solid #000;
+}
+#sorry #content #right_col #tryAgainWindow #tryAgainWindowContent p{color:#FFF;}
+#sorry #content #right_col #tryAgainWindow #tryAgainWindowContent a{margin-top:5px;}
+#sorry #content #right_col #callUsWindow {
+	width:516px;
+	position:absolute;
+	z-index:1000;
+	height: 232px;
+}
+#sorry #content #right_col #callUsWindow #callUsWindowContent {
+	background-color:#2f3739;
+	width:480px;
+	position:absolute;
+	bottom:0px;
+	left: 0px;
+	padding:20px 10px 0px 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+	border:3px solid #000;
+}
+#sorry #content #right_col #callUsWindow #callUsWindowContent p{color:#FFF;}
+#sorry #content #right_col #callUsWindow #callUsWindowContent a{margin-top:5px;}
+.inPageVideoBorder {
+	margin:0px auto;
+	width: 640px;
+	height:385px;
+	padding:22px 19px;
+	background-image: url(../images/maha_inPageVideoBorder_v001.png);
+	background-repeat: no-repeat;
+}
+#content #title_tab{
+	text-align:center;
+	color:#FFF;
+}
+#content #title_tab{
+	text-align:center;
+	color:#FFF;
+}
+#content #title_tab span{
+	background:url(../images/mymaha_title_background_v001.png) left top repeat-x;
+	padding:5px 10px 11px 10px;
+	position:relative;
+	top:-14px;
+	font-weight: bold;
+	
+}
+#member_content {
+	width:920px;
+	height:251px;
+	background-image:url(../images/maha_pages_memberInfo_bg_v001.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	margin: 10px auto 20px;
+	position: relative;
+}
+#member_content #profile_pic {
+	position:absolute;
+	top:11px;
+	left:13px;
+}
+#member_content #memberNameTitle {
+	position:absolute;
+	top:28px;
+	left:216px;
+	width: 256px;
+	overflow: hidden;
+	height: 40px;
+}
+#member_content #memberData {
+	position:absolute;
+	left:210px;
+	top:84px;
+	width:284px;
+	color:#FFF;
+}
+#member_content #memberData a {
+	color:#FFF;
+	text-decoration:none;
+}
+#member_content iframe {
+	position:absolute;
+	left:534px;
+	top:17px;
+	width:369px;
+	height:225px;
+}
+#pages_contact #contactInvitation {
+	float: left;
+	padding: 30px 30px 20px;
+	width: 462px;
+}
+#pages_contact #contactInvitation h1 {
+	text-align: center;
+	font-size: 4em;
+}
+#pages_contact #contactInvitation p {
+	text-align: justify;
+	font-size: small;
+}
+#pages_contact #contactForm_container {
+	clear:both;
+	background-image:url(../images/maha_pages_contactForm_bg_v001.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 20px;
+	margin-left: 26px;
+	color: #FFF;
+	height: 327px;
+}
+#pages_contact #contactInfo {
+	width:934px;
+	height:391px;
+	position:relative;
+	background-image:url(../images/maha_pages_contactInfo_bg_v001.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	color: #FFF;
+	font-size: 18px;
+}
+#pages_contact #contactForm_container table td {
+	padding:3px 35px 3px 186px;
+	font-size:14px;
+}
+#pages_contact #contactForm_container table input[type=text],
+#pages_contact #contactForm_container table textarea{
+	border:1px solid #000;
+	width:99%;
+	padding:2px;
+	font-size:14px;
+	margin-top: 2px;
+}
+#pagesContact_submitButton{
+	color:#FFFFFF;
+	width:122px;
+	background-image:url(../images/maha_pages_submit_normal_v001.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	border:0px;
+	margin-left:99px;
+	height:49px;
+	font-weight:bold;
+	background-color: transparent;
+}
+#pagesContact_submitButton.hover{cursor:pointer;background-image:url(../images/maha_pages_submit_over_v001.png);}#pages_contact #contactInfo a {
+	color:#FFF;
+	text-decoration:none;
+}
+#wrapper .siteBottomCap {display:block;}
+
+.banner-ctn-h
+	{ width:920px; float:left; margin:0 0 20px 0;}
+	
+.youtube-link
+	{
+		width:250px;
+		float:left;
+		margin:0 0 0 0;
+		height:325px
+		}
+.youtube-link2
+	{
+		width:278px;
+		float:left;
+		height:325px;
+		margin:0 0 0 61px;
+		}
+.youtube-link3
+	{
+		width:278px;
+		float:left;
+		margin:0 0 0 33px;
+		height:310px;
+		}				
+		
+.you-tube-ctn
+	{
+		width:945px; float:left; margin:0 0 0 0px;
+		}			
+.titleComm {
+	font-size: 24px;
+}
